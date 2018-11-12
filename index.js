@@ -16,7 +16,6 @@ function currentLine(katzDeliLine){
     return "The line is currently: 1. " + katzDeliLine[0] + "2." + katzDeliLine[1];
   }
 }
-}
 function nowServing(katzDeliLine){
   var katzDeliLine = ["Steven"];// should return the first person in line and then remove him/her from the line.
   if (katzDeliLine.length===0){//we are determining if there are people in line
