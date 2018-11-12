@@ -17,6 +17,8 @@ function nowServing(katzDeliLine){// should return the first person in line and 
   return 'Currently serving ' + katzDeliLine.shift() + '.';
 }
 }
+
+nowServing();
 function currentLine(line){
   var line = katzDeliLine.length;//returns everybody in line
   if (katzDeliline.length === 0){
