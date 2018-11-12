@@ -18,10 +18,10 @@ function nowServing(katzDeliLine){// should return the first person in line and 
 }
 }
 
-nowServing();
+nowServing(katzDeliLine);
 
 function currentLine(line){
-  var line = katzDeliLine.length;//returns everybody in line
+  //returns everybody in line
   if (katzDeliline.length === 0){
     return "The line is currently empty";
     }else{
