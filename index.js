@@ -25,5 +25,3 @@ function nowServing(katzDeliLine){
   //remove the first person from line and return that person at the same time
   return 'Currently serving ' + katzDeliLine[0];
 }
-
-
