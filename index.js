@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine, name){// this function should return a new cu
 takeANumber(katzDeliLine, "Ada");
 
 function nowServing(katzDeliLine){
-  var katzDeliLine = [Steven];// should return the first person in line and then remove him/her from the line.
+  var katzDeliLine = ["Steven"];// should return the first person in line and then remove him/her from the line.
   if (katzDeliLine.length===0){//we are determining if there are people in line
   return 'There is nobody waiting to be served!';
 }else {
