@@ -1,5 +1,5 @@
 
-var katzDeliLine = [];//starting with an empty array
+var katzDeliLine = ["Ada"];//starting with an empty array
 
 function takeANumber(katzDeliLine, name){// this function should return a new customer's position in line.
   katzDeliLine.push(name);//adding the name to the line of the deli array;
