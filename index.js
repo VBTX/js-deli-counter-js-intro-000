@@ -10,6 +10,16 @@ function nowServing(katzDeliLine){// should return the first person in line and 
   if (katzDeliLine.length===0){//we are determining if there are people in line
   return 'There is nobody waiting to be served!';
 }else {
-  var shift = katzDeliLine.shift[0];//remove the first person from line and return that person at the same time
-  return 'Currently serving ' + shift;
+  //remove the first person from line and return that person at the same time
+  return 'Currently serving ' + katzDeliLine.shift[0];
 }
+var currentLine = katzDeliLine;
+function currentLine(katzDeliLine){
+  for (var i = 0; i > katzDeliLine.length; i++){
+  if (katzDeliline[i]>=0){
+    var number = katzDeliLine[i] + 1;
+    return 'The line is currently: ' + number + '.' + name;
+  }else{
+    return "The line is currently empty";
+  }
+  }
