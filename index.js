@@ -22,9 +22,9 @@ nowServing(katzDeliLine);
 var line = katzDeliline;
 function currentLine(line){
   //returns everybody in line
-  if (katzDeliline.length === 0){
+  if (line.length === 0){
     return "The line is currently empty";
     }else{
-    return "The line is currently: 1. " + katzDeliLine[0] + "2." + katzDeliLine[1];
+    return "The line is currently: 1. " + line[0] + "2." + line[1];
   }
 }
