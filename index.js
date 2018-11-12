@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, name){// this function should return a new cu
 
 takeANumber(katzDeliLine, "Ada");
 takeANumber(katzDeliLine, "Steven");
-katzDeliLine;
+katzDeliLine();
 
 function nowServing(katzDeliLine){// should return the first person in line and then remove him/her from the line.
   if (katzDeliLine.length===0){//we are determining if there are people in line
