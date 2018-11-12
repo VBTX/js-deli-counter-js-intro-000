@@ -13,7 +13,7 @@ function nowServing(katzDeliLine){// should return the first person in line and 
   return 'There is nobody waiting to be served!';
 }else {
   //remove the first person from line and return that person at the same time
-  return 'Currently serving ' + katzDeliLine[0];
+  return 'Currently serving ' + katzDeliLine.shift();
 }
 }
 function currentLine(katzDeliLine){
