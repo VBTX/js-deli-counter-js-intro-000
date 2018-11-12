@@ -19,7 +19,7 @@ function nowServing(katzDeliLine){// should return the first person in line and 
 }
 
 nowServing(katzDeliLine);
-
+var line = katzDeliline;
 function currentLine(line){
   //returns everybody in line
   if (katzDeliline.length === 0){
