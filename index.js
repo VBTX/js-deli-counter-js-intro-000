@@ -7,6 +7,8 @@ function takeANumber(katzDeliLine, name){// this function should return a new cu
 }
 
 takeANumber(katzDeliLine, "Ada");
+takeANumber(katzDeliLine, "Grace");
+takeANumber(katzDeliLine, "Kent");
 
 
 function nowServing(katzDeliLine){
